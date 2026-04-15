@@ -1,16 +1,85 @@
-# React + Vite
+# Neural Network Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive web-based tool to visualize how neural networks work in real time.
+Built to make understanding deep learning concepts intuitive and visual.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Visual representation of neurons and layers
+* Real-time updates of connections and activations
+* Fast and responsive UI (powered by Vite)
+* Modular and scalable code structure
+* Clean and minimal interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **Frontend:** React (Vite)
+* **Styling:** CSS
+* **Build Tool:** Vite
+* **Linting:** ESLint
+
+---
+
+## Project Structure
+
+```
+Neural-Network-Visualizer/
+│── public/
+│── src/
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles/
+│── index.html
+│── package.json
+│── vite.config.js
+```
+
+---
+
+## Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/ShivangSolania/Neural-Network-Visualizer.git
+cd Neural-Network-Visualizer
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173/
+```
+
+---
+
+## Future Improvements
+
+* Add step-by-step forward/backpropagation visualization
+* Multiple network architectures (CNN, RNN)
+* Interactive controls for weights and biases
+
+---
+
+## License
+
+This project is open-source and available under the MIT License.
+
+---
