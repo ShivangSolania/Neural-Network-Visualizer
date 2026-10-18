@@ -3,6 +3,8 @@
 An interactive web-based tool to visualize how neural networks work in real time.
 Built to make understanding deep learning concepts intuitive and visual.
 
+Live demo: https://shivangsolania.github.io/Neural-Network-Visualizer/
+
 ---
 
 ## Features
@@ -41,6 +43,14 @@ Neural-Network-Visualizer/
 
 ---
 
+## Live Demo
+
+The app is deployed on GitHub Pages:
+
+https://shivangsolania.github.io/Neural-Network-Visualizer/
+
+---
+
 ## Installation & Setup
 
 Clone the repository:
@@ -67,6 +77,26 @@ Open in browser:
 ```
 http://localhost:5173/
 ```
+
+For the deployed version, visit:
+
+```
+https://shivangsolania.github.io/Neural-Network-Visualizer/
+```
+
+---
+
+## Deployment
+
+This project is configured for GitHub Pages deployment.
+
+To deploy updates:
+
+```bash
+npm run build
+```
+
+Then publish the generated `dist/` folder through GitHub Pages in the repository settings.
 
 ---
 
